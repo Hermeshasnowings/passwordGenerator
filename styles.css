@@ -1,0 +1,13 @@
+.card {
+    background-color: antiquewhite;
+    min-width: 300px;
+    min-height: 500px;
+    text-align: center;
+    margin: 100px 20px 10px 20px;
+    border-radius: 4px;
+}
+
+.generator {
+    padding-top: 250px;
+    text-decoration: underline;
+}
