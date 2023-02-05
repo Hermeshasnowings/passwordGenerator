@@ -21,3 +21,12 @@ body {
     background-color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.final-result {
+    border: 3px black solid;
+    margin: 100px auto;
+    max-width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+
+}
