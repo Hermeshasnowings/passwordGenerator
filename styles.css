@@ -1,5 +1,5 @@
 .card {
-    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1599577045008-617e6907df75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
     min-width: 300px;
     min-height: 500px;
     text-align: center;
@@ -8,12 +8,16 @@
 }
 
 .generator {
-    padding-top: 250px;
-    text-decoration: underline;
+    padding-top: 100px;
 }
 
 h1 {
-    color: red;
+    color: white;
     display: flex;
     justify-content: center;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
