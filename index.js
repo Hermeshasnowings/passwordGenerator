@@ -2,7 +2,7 @@ function generate() {
     //password variable is blank
     let newarray = [];
     let chars = "0123456789abcdefghijklmnopqrstuvwxyz!@£$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    let passwordLength = 12;
+    let passwordLength = document.getElementById('charlen').value;
     //let password =""
 
     for (i = 0; i < passwordLength; i++) {
@@ -14,6 +14,7 @@ function generate() {
     let password = (newarray.join(''));
     console.log(password);
     document.getElementById("demo").innerHTML = password;
+    document.getElementById("charlen");
 
 }
 
